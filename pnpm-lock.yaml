@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  date-fns: ^2.22.1
   gray-matter: ^4.0.3
   next: ^10.0.0
   react: 17.0.1
@@ -8,6 +9,7 @@ specifiers:
   sass: ^1.35.1
 
 dependencies:
+  date-fns: 2.22.1
   gray-matter: 4.0.3
   next: 10.2.3_3d537721f95ecca9d304a4a24fb6e96b
   react: 17.0.1
@@ -511,6 +513,11 @@ packages:
   /data-uri-to-buffer/3.0.1:
     resolution: {integrity: sha512-WboRycPNsVw3B3TL559F7kuBUM4d8CgMEvk6xEJlOp7OBPjt6G7z8WMWlD2rOFZLk6OYfFIUGsCOWzcQH9K2og==}
     engines: {node: '>= 6'}
+    dev: false
+
+  /date-fns/2.22.1:
+    resolution: {integrity: sha512-yUFPQjrxEmIsMqlHhAhmxkuH769baF21Kk+nZwZGyrMoyLA+LugaQtC0+Tqf9CBUUULWwUJt6Q5ySI3LJDDCGg==}
+    engines: {node: '>=0.11'}
     dev: false
 
   /debug/2.6.9:

@@ -5,7 +5,9 @@ specifiers:
   '@types/react': ^17.0.14
   date-fns: ^2.22.1
   gray-matter: ^4.0.3
+  js-base64: ^3.6.1
   next: ^10.0.0
+  node-fetch: ^2.6.1
   react: 17.0.1
   react-dom: 17.0.1
   sass: ^1.35.2
@@ -14,7 +16,9 @@ specifiers:
 dependencies:
   date-fns: 2.22.1
   gray-matter: 4.0.3
+  js-base64: 3.6.1
   next: 10.2.3_47fe838790d36177890358c6c6512026
+  node-fetch: 2.6.1
   react: 17.0.1
   react-dom: 17.0.1_react@17.0.1
 
@@ -993,6 +997,10 @@ packages:
       '@types/node': 16.0.0
       merge-stream: 2.0.0
       supports-color: 8.1.1
+    dev: false
+
+  /js-base64/3.6.1:
+    resolution: {integrity: sha512-Frdq2+tRRGLQUIQOgsIGSCd1VePCS2fsddTG5dTCqR0JHgltXWfsxnY0gIXPoMeRmdom6Oyq+UMOFg5suduOjQ==}
     dev: false
 
   /js-tokens/4.0.0:
